@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import {GameState,Particle,Brick} from '../types/game';
 import { CANVAS_WIDTH, CANVAS_HEIGHT, PADDLE_WIDTH, PADDLE_HEIGHT, BALL_RADIUS, BRICK_ROWS, BRICK_COLS, BRICK_WIDTH, BRICK_HEIGHT, BRICK_PADDING, BALL_SPEED, BRICK_COLORS } from '../constants';
-import { Play, Pause, RotateCcw, Gamepad2, Volume2 } from 'lucide-react';
+import { Play, Pause, RotateCcw, Gamepad2 } from 'lucide-react';
  // Ensure Tailwind CSS is imported
 
 
