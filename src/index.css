@@ -1,0 +1,7 @@
+@import "tailwindcss";
+/* @config "../tailwind.config.ts"; */
+
+@source "../src/components/BrickBreaker.tsx";
+
+/* @plugin '@tailwindcss-animate'; */
+/* @custom-variant dark (&:is(.dark *)); */
