@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brick-breaker/static/css/main.c06de609.css",
+    "main.js": "/brick-breaker/static/js/main.1870dfa9.js",
+    "static/js/453.ebc47576.chunk.js": "/brick-breaker/static/js/453.ebc47576.chunk.js",
+    "index.html": "/brick-breaker/index.html",
+    "main.c06de609.css.map": "/brick-breaker/static/css/main.c06de609.css.map",
+    "main.1870dfa9.js.map": "/brick-breaker/static/js/main.1870dfa9.js.map",
+    "453.ebc47576.chunk.js.map": "/brick-breaker/static/js/453.ebc47576.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c06de609.css",
+    "static/js/main.1870dfa9.js"
+  ]
+}
