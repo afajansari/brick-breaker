@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
-import type { GameState, Particle, Brick, CollisionType } from "../types/game";
+import type { GameState, Particle, Brick } from "../types/game";
 import {
   CANVAS_WIDTH,
   CANVAS_HEIGHT,
@@ -14,17 +14,8 @@ import {
   BALL_SPEED,
   BRICK_COLORS,
 } from "../constants";
-import { Play, Pause, RotateCcw, Gamepad2 } from "lucide-react";
-import {
-  collision,
-  drawCanvas,
-  frameUpdate,
-  initBricks,
-  mouseMovementHandler,
-  particle,
-  resetGameState,
-  touchMovementHandler,
-} from "../lib/utils";
+import { Play, Pause, RotateCcw } from "lucide-react";
+
 import "../index.css";
 import Instructions from "./Instructions";
 // Ensure Tailwind CSS is imported

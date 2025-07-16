@@ -14,7 +14,7 @@ import {
   BALL_SPEED,
   BRICK_COLORS,
 } from "../constants";
-import { Play, Pause, RotateCcw, Gamepad2 } from "lucide-react";
+import { Play, Pause, RotateCcw } from "lucide-react";
 import {
   collision,
   drawCanvas,
